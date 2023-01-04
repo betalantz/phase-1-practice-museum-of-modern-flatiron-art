@@ -16,16 +16,16 @@ For each comment attached to the exhibit, add it to the `comments-section` with 
 
 ## Deliverable Two
 
-When someone submits the form for a new comment, that comment gets added to the `comments-section` as a `p` tag.
-
-## Deliverable Three
-
-When someone clicks the `buy-tickets-button` it updates the `tickets-bought` element so that it increments the number of tickets. Make sure to retain the text, it shouldn't just say `1` but instead say `1 Tickets Bought`.
+When someone clicks the `buy-tickets-button` it updates the `tickets-bought` element so that it increments the number of tickets. Make sure to retain the text, it shouldn't just say `1` but instead say `1 Tickets Bought`.  There is a maximum number of 10 tickets for each exhibit. When 10 tickets have been bought, the user should not be able to buy any more tickets (number can just stay on 10).
 
 ## BONUS One
 
-When someone buys a ticket, PATCH the exhibit so it has the correct number of `tickets_bought`.
+When someone submits the form for a new comment, that comment gets added to the `comments-section` as a `p` tag.
 
 ## BONUS Two
+
+When someone buys a ticket, PATCH the exhibit so it has the correct number of `tickets_bought`.
+
+## BONUS Three
 
 When someone makes a comment, PATCH the exhibit so its comments reflect the new comment added.
